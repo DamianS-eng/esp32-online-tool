@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<link rel="stylesheet" href="docs/style.css"><title>ESP32 Gamecube</title>
+		<meta property="og:locale" content="es" />
+		<meta property="og:type" content="website" />
+		<meta name="description" content="Programa tu esp32 para tu control de gamecube" />
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+	</head>
+	<body>
+	<header>
+<p><a href="index.html">volver al [INICIO ]</a>.</p>
+
+
+<img src="imagenes/gamecube.png" alt="gamecube bluetooth" title="gamecube bluetooth esp32">
+</header>
+
+<h4> un poco de historia?</h4>
+<p>Basado en una **Release no oficial** del <a href="https://github.com/HandHeldLegend/HOJA-LIB-ESP32">[HOJA-LIB-ESP32]</a> proyecto original de <a href="https://github.com/mitchellcairns">[mitchellcairns]</a> que nos permite utilizar nuestro **esp32 como un control de nintendo switch**,</p>
+
+<p>ademas de una nueva implementacion de doble fimrware gracias a **JPZV** en esta proyecto de GAMECUBE **usaremos una version modificada** del <a href="https://github.com/JPZV/BluN64-ESP32">[Blu N64]</a> que ha evolucionado hasta convertirse muy pronto en la solucion definitiva para crear todo tipo de controles bluetooth, convirtiendo directamente nuestros controles clasicos de cable en unos inalambricos asi que dejen volar su imaginacion mientras hacemos un control tipo GAMECUBE</p>
+
+<p>Para cambiar entre payload de **BLUERETRO** y payload compatible con **NINTENDO SWITCH** Solo hay que mantener presionado **Z + START** durante **10 segundos**</p>
+
+
+<img src="imagenes/line.png" alt="line for separating content">
+
+<h3> totalmente compatible con </h3>
+<ul>
+<li>windows</li>
+<li>linux</li>
+<li>android</li>
+<li>tv box</li>
+<li>pandora</li>
+<li>blueretro</li>
+<li>steam deck</li>
+<li>nintendo switch normal</li>
+<li>nintendo switch lite</li>
+<li>nintendo switch oled</li>
+</ul>
+<img src="imagenes/line.png" alt="line for separating content">
+
+<p>si queremos usar nuestro control bluetooth de gamecube en una consola gamecube con blueretro es totalmente **OBLIGATORIO** tener instalada la version **1.8.2 (o superior)** de blueretro <a href="https://youtu.be/wpAVl-TC-Xg">[COMO LO VIMOS EN ESTE TUTORIAL]</a> de manera inalambrica sin conectar el esp32 a nuestro pc, o si podemos conectar podremos hacer una instalacion via usb <a href="blueretro.md">[desde este enlace]</a></p>
+
+
+
+
+<h3> JPZV V1.1 para **"NINTENDO GAMECUBE** </h3>
+<p>Para grabar tu firmware **"UNIVERSAL GAMECUBE JPVZ"**, asegurate de conectar tu ESP32 via USB y presiona el siguiente boton. recuerda usar **CHROME** para ver este boton</p>
+
+
+<script type="module" src="install-button.js?module"></script>
+<esp-web-install-button manifest="firmware/firmware_build/GAMECUBE-UNIVERSAL-JPZV/manifest.json"></esp-web-install-button>
+
+<img src="imagenes/line.png" alt="line for separating content">
+<p>Para cambiar entre payload de **BLUERETRO** y payload compatible con **NINTENDO SWITCH** Solo hay que mantener presionado **Z + START** durante **10 segundos**</p>
+<img src="imagenes/line.png" alt="line for separating content">
+
+
+<h4> tienes dudas de como HACER ESTE PROYECTO?</h4>
+
+
+<p>Este proyecto viene acompañado de un <a href="https://youtu.be/I-eD3m9FG4s">[video tutorial completo]</a> no olvides verlo .</p>
+
+
+<img src="imagenes/line.png" alt="line for separating content">
+<img src="imagenes/diagrama-gamecube.png">
+<p>los diagramas en alta definicion puedes descargarlos <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKylCOfEuCNMamdnB_tEQCsjf1jxalkQ7Y7vUdWpUHzg_h8GbciP72zUyhO5UqCu-336UaOYc5vPYnHX4Kyl4IcjgienQZAh-y_xufkhG90SNSKUhcBbfjDZL7jyoJogpKO-0vm-V6_zorG3iA_oC5oxr1mVyiLdpr0iYY3bh_tJh6ChR6Po_zoiZNqQ/s3508/GAMECUBE%20UNIVERSAL.png">[desde este enlace]</a>.</p>
+</html>

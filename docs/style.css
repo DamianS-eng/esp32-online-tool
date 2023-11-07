@@ -15,6 +15,14 @@ img {
 	height: auto;
 	margin-inline: auto;
 }
+ul {
+	list-style-type: none;
+}
+li::before {
+	content: "-";
+	padding-right: .5em;
+	color: black;
+}
 footer {
 	min-height: 100px;
 	background: pink;
