@@ -1,0 +1,22 @@
+body {
+	max-width: 90vw;
+	margin-inline:auto;
+}
+h1 {
+	display: none;
+}
+header {
+	width: 90%;
+	margin-inline: auto;
+}
+img {
+	display: block;
+	width: 80%;
+	height: auto;
+	margin-inline: auto;
+}
+footer {
+	min-height: 100px;
+	background: pink;
+	opacity: 0.6;
+}
